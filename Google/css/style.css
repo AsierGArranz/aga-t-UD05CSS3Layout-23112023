@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+}
+#header{
+    /* background-color: red; */
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr 1fr 1fr 1fr;
+    gap: 2px;
+    align-items: center;
+}
+#head, p{
+    /* background-color: palevioletred; */
+    margin-left: 15%;
+}
+
+#main{
+    /* background-color: yellow; */
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2px;
+    justify-content: center;
+}
+#mIzq{
+    /* background-color: aliceblue; */
+    grid-row: 1/4;
+}
+#mCen{
+    /* background-color: bisque; */
+    grid-row: 1/4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:2px;
+    
+}
+#google{
+    /* background-color: aquamarine; */
+    grid-row: 1/2;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: xxx-large;
+    text-align: center;
+}
+#color_o, #color_e{
+    color: red;
+}
+
+#color_o2{
+    color: #dbb82f;
+}
+
+#color_l {
+    color: #57bd1a;
+}
+
+#busqueda{
+    /* background-color: red; */
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchbar{
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    outline: none;
+    width: 30vw;
+    margin-bottom: 20px;
+    object-position: center;
+}
+#texto{
+    /* background-color: blueviolet; */
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 30px; 
+    outline: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+#mDer{
+
+}
+
+#footer{
+    background-color: rgb(173, 173, 173);
+    grid-column: 1/4;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    gap: 1px;
+    margin: 2%;
+    
+}
+#ftop{
+    grid-row: 1/2;
+}
+#fbot{
+    grid-row: 2/3;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 6fr 1fr 1fr 2fr;
+    gap: 2px;
+    align-items: center;
+}
+#foot{
+    font-size: smaller;
+    /* background-color: aliceblue; */
+    margin-left: 15%;
+}

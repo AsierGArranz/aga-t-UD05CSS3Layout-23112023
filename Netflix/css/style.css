@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#container{
+    background-color: rgb(19, 19, 19);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7fr;
+    box-shadow: inset 5px 25px 50px -15px black;  
+}
+#header{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+}
+#logo, #text, #profile{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+#logo{
+    grid-column: 1/2;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    background-position: center;
+}
+#profile{
+    grid-column: 3/4;
+    background-image: url('../img/perfil.png');
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+#main{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 5fr 1fr 2fr 5fr 1fr;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.e1{
+    grid-row: 1/2;
+}
+.t1{
+    grid-row: 2/3;
+}
+#series1, #series2{
+    border-radius: 5px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+}
+#series1{
+    grid-row:3/4;
+}
+.ns1{
+    background-image: url(../img/serie1.png);
+}
+.ns2{
+    background-image: url(../img/serie2.png);
+}
+.ns3{
+    background-image: url(../img/serie3.png);
+}
+.ns4{
+    background-image: url(../img/serie4.png);
+}
+.ns5{
+    background-image: url(../img/serie5.png);
+}
+.e2{
+    grid-row: 4/5;
+}
+.t2{
+    grid-row: 5/6;
+}
+#series2{
+    grid-row: 6/7;
+}
+.ns6{
+    background-image: url(../img/serie6.png);
+}
+.ns7{
+    background-image: url(../img/serie7.png);
+}
+.ns8{
+    background-image: url(../img/serie8.png);
+}
+.ns9{
+    background-image: url(../img/serie9.png);
+}
+.ns10{
+    background-image: url(../img/serie10.png);
+}
